@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/43eb35f60f.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Move Academy</title>
+</head>
+<body class="h-full w-full"> 
+    <!--Hedear principal -->
+    <header class=" header-img hedear_loginUp_button-img  w-full flex flex-wrap flex-col-reverse sm:flex-row" >
+        <div class="header-left h-1/2 w-full sm:w-1/3 sm:py-16 lg:py-40">
+            <div class="content-form p-6 text-center flex justify-center flex-wrap ">
+                <form action="" method="GET" class="flex justify-center flex-wrap ">
+                    <input type="text" name="name" id="name" placeholder="Name"/>
+                    <input type="text" name="email" id="email" placeholder="Email"/>
+                    <input type="text" name="contry" id="contry" placeholder="Country"/>
+                    <input type="text" name="password" id="password" placeholder="Password"/>
+                    <input type="text" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password"/>                                        
+                </form>                
+            </div>  
+        </div>        
+        <div class="header-right h-1/2 flex flex-row-reverse p-4 w-full sm:w-2/3">
+            <div class="login"><a href="login.html" class="button-blue">Login</a></div>            
+        </div>                
+    </header>
+    <main class="w-full px-6 flex justify-center my-16">
+            <section id="choose-plan" class="text-center sm:w-2/3">
+                    <h3 class="text-lg m-2">Choose your plan</h3>
+                    <p class="text-xs m-2">Acording with your plan you will have an specific catalogue of movies</p>
+                    <div class="flex flex-col text-left justify-center items-center content-radio-plan">
+                        <div class="w-1/2"> 
+                            <input type="radio" name="plan" id="plan1" value="plan1"> <label for="plan1">Latino +</label> 
+                        </div>
+                        <div class="w-1/2"> 
+                            <input type="radio" name="plan" id="plan1" value="plan1"> <label for="plan1">International +</label> 
+                        </div>
+                        <div class="w-1/2"> 
+                            <input type="radio" name="plan" id="plan1" value="plan1"> <label for="plan1">Art +</label> 
+                        </div>                                       
+                    </div>                     
+                    <button class="button-blue m-4 text-center">SIGN UP NOW</button>
+            </section>
+    </main>
+    <footer class="h-1/6 text-center">
+        @2021
+    </footer>
+</body>
+</html>

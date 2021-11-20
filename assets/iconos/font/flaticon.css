@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?e83a4a4b610b841dee93ad9d7c8f2d4e") format("truetype"),
+url("./flaticon.woff?e83a4a4b610b841dee93ad9d7c8f2d4e") format("woff"),
+url("./flaticon.woff2?e83a4a4b610b841dee93ad9d7c8f2d4e") format("woff2"),
+url("./flaticon.eot?e83a4a4b610b841dee93ad9d7c8f2d4e#iefix") format("embedded-opentype"),
+url("./flaticon.svg?e83a4a4b610b841dee93ad9d7c8f2d4e#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-llamada-de-telfono-inteligente:before {
+    content: "\f101";
+}
+.flaticon-ordenador-portatil:before {
+    content: "\f102";
+}
+.flaticon-consola:before {
+    content: "\f103";
+}
+.flaticon-monitor:before {
+    content: "\f104";
+}
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/iconos/font/flaticon.css">   
+        <link rel="stylesheet" href="./assets/iconos/iconosHome/font/flaticon.css">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Move Academy</title>
+    </head>
+    <body class="w-full h-full">
+        <main class="w-full flex absolute flex-col justify-end img-background">
+            <!-- HEADER -->
+            <section class="w-full pb-5 img-background-mov main-section-background top-sec flex items-end justify-center">
+                <div class="content-top lg:w-1/3">
+                    <!-- Descripcion de la pelicula -->
+                    <div class=" w-full flex justify-around items-center px-10 py-5">
+                        <p>kids</p>
+                        <div class="section-point mx-3"></div>
+                        <p>Fantasy Movie</p>
+                        <div class="section-point mx-3 "></div>
+                        <p>Action</p>
+                    </div>
+                    <!--"Boton" azul-->
+                    <div class=" w-full section-paragraf_background "> 
+                        <p class="text-center">MOVY ORIGINAL</p>
+                    </div>
+                    <!--Seccion de los iconos-->
+                    <div class=" w-full flex justify-around px-10 py-5 ">
+                        <button class="mx-4 flex flex-col items-center">
+                            <i class="flaticon-add text-3xl style-icons-home"></i>
+                            <span class="text-align">My List</p> 
+                        </button>
+                        <button id="seeTriler" class="mx-4 flex flex-col items-center" data-url="http://www.youtube.com/embed/zAGVQLHvwOY" data-title=""> 
+                            <i class="flaticon-play-button  text-3xl  style-icons-home"></i>
+                            <span class="text-align">Play</span>    
+                        </button>
+                        <button class="mx-4 flex flex-col items-center">
+                            <i class="flaticon-information text-3xl  style-icons-home"></i>
+                            <span class="text-align">Info</span> 
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- LISTAD -->
+            <section class="w-full p-4 sm:p-10">
+            <div class="cont-list pt-10">
+                <h2 class="py-5 text-lg">My List</h2>
+                <div class="flex flex-wrap">
+                    <div class="move-item" data-id="1" data-trailer="http://www.youtube.com/embed/FUK2kdPsBws?autoplay=1" data-title="Fast and Furious"><img src="./assets/imagenes/miniatura-1.jpg" alt="Fast and Furious"></div>
+                    <div class="move-item" data-id="2" data-trailer="http://www.youtube.com/embed/zAGVQLHvwOY?autoplay=1" data-title="The Jocker"><img src="./assets/imagenes/miniatura-2.jpg" alt="The jocker"></div>
+                    <div class="move-item" data-id="3" data-trailer="http://www.youtube.com/embed/sY1S34973zA?autoplay=1" data-title="The Godfather"><img src="./assets/imagenes/miniatura-3.jpg" alt="The Godfather"></div>
+                    <div class="move-item" data-id="4" data-trailer="http://www.youtube.com/embed/o2AsIXSh2xo?autoplay=1" data-title="Bird Box"><img src="./assets/imagenes/miniatura-4.jpg" alt="Bird Box"></div>
+                    <div class="move-item" data-id="1" data-trailer="http://www.youtube.com/embed/FUK2kdPsBws?autoplay=1" data-title="Fast and Furious"><img src="./assets/imagenes/miniatura-1.jpg" alt="Fast and Furious"></div>
+                    <div class="move-item" data-id="2" data-trailer="http://www.youtube.com/embed/zAGVQLHvwOY?autoplay=1" data-title="The Jocker"><img src="./assets/imagenes/miniatura-2.jpg" alt="The jocker"></div>
+                    <div class="move-item" data-id="3" data-trailer="http://www.youtube.com/embed/sY1S34973zA?autoplay=1" data-title="The Godfather"><img src="./assets/imagenes/miniatura-3.jpg" alt="The Godfather"></div>
+                    <div class="move-item" data-id="4" data-trailer="http://www.youtube.com/embed/o2AsIXSh2xo?autoplay=1" data-title="Bird Box"><img src="./assets/imagenes/miniatura-4.jpg" alt="Bird Box"></div>
+                    <div class="move-item" data-id="1" data-trailer="http://www.youtube.com/embed/FUK2kdPsBws?autoplay=1" data-title="Fast and Furious"><img src="./assets/imagenes/miniatura-1.jpg" alt="Fast and Furious"></div>
+                    <div class="move-item" data-id="2" data-trailer="http://www.youtube.com/embed/zAGVQLHvwOY?autoplay=1" data-title="The Jocker"><img src="./assets/imagenes/miniatura-2.jpg" alt="The jocker"></div>       
+                </div>
+            </div>   
+            <div class="cont-list pt-10">
+                <h2 class="py-5 text-lg">Trending Now</h2>
+                <div class="flex flex-wrap">
+                    <div class="move-item" data-id="1" data-trailer="http://www.youtube.com/embed/FUK2kdPsBws?autoplay=1" data-title="Fast and Furious"><img src="./assets/imagenes/miniatura-1.jpg" alt="Fast and Furious"></div>
+                    <div class="move-item" data-id="2" data-trailer="http://www.youtube.com/embed/zAGVQLHvwOY?autoplay=1" data-title="The Jocker"><img src="./assets/imagenes/miniatura-2.jpg" alt="The jocker"></div>
+                    <div class="move-item" data-id="3" data-trailer="http://www.youtube.com/embed/sY1S34973zA?autoplay=1" data-title="The Godfather"><img src="./assets/imagenes/miniatura-3.jpg" alt="The Godfather"></div>
+                    <div class="move-item" data-id="4" data-trailer="http://www.youtube.com/embed/o2AsIXSh2xo?autoplay=1" data-title="Bird Box"><img src="./assets/imagenes/miniatura-4.jpg" alt="Bird Box"></div>
+                    <div class="move-item" data-id="1" data-trailer="http://www.youtube.com/embed/FUK2kdPsBws?autoplay=1" data-title="Fast and Furious"><img src="./assets/imagenes/miniatura-1.jpg" alt="Fast and Furious"></div>
+                    <div class="move-item" data-id="2" data-trailer="http://www.youtube.com/embed/zAGVQLHvwOY?autoplay=1" data-title="The Jocker"><img src="./assets/imagenes/miniatura-2.jpg" alt="The jocker"></div>
+                    <div class="move-item" data-id="3" data-trailer="http://www.youtube.com/embed/sY1S34973zA?autoplay=1" data-title="The Godfather"><img src="./assets/imagenes/miniatura-3.jpg" alt="The Godfather"></div>
+                    <div class="move-item" data-id="4" data-trailer="http://www.youtube.com/embed/o2AsIXSh2xo?autoplay=1" data-title="Bird Box"><img src="./assets/imagenes/miniatura-4.jpg" alt="Bird Box"></div>
+                    <div class="move-item" data-id="1" data-trailer="http://www.youtube.com/embed/FUK2kdPsBws?autoplay=1" data-title="Fast and Furious"><img src="./assets/imagenes/miniatura-1.jpg" alt="Fast and Furious"></div>
+                    <div class="move-item" data-id="2" data-trailer="http://www.youtube.com/embed/zAGVQLHvwOY?autoplay=1" data-title="The Jocker"><img src="./assets/imagenes/miniatura-2.jpg" alt="The jocker"></div>     
+                </div>
+            </div>   
+            <div class="cont-list pt-10">
+                <h2 class="py-5 text-lg">Recently Added</h2>
+                <div class="flex flex-wrap">
+                    <div class="move-item" data-id="1" data-trailer="http://www.youtube.com/embed/FUK2kdPsBws?autoplay=1" data-title="Fast and Furious"><img src="./assets/imagenes/miniatura-1.jpg" alt="Fast and Furious"></div>
+                    <div class="move-item" data-id="2" data-trailer="http://www.youtube.com/embed/zAGVQLHvwOY?autoplay=1" data-title="The Jocker"><img src="./assets/imagenes/miniatura-2.jpg" alt="The jocker"></div>
+                    <div class="move-item" data-id="3" data-trailer="http://www.youtube.com/embed/sY1S34973zA?autoplay=1" data-title="The Godfather"><img src="./assets/imagenes/miniatura-3.jpg" alt="The Godfather"></div>
+                    <div class="move-item" data-id="4" data-trailer="http://www.youtube.com/embed/o2AsIXSh2xo?autoplay=1" data-title="Bird Box"><img src="./assets/imagenes/miniatura-4.jpg" alt="Bird Box"></div>
+                    <div class="move-item" data-id="1" data-trailer="http://www.youtube.com/embed/FUK2kdPsBws?autoplay=1" data-title="Fast and Furious"><img src="./assets/imagenes/miniatura-1.jpg" alt="Fast and Furious"></div>
+                    <div class="move-item" data-id="2" data-trailer="http://www.youtube.com/embed/zAGVQLHvwOY?autoplay=1" data-title="The Jocker"><img src="./assets/imagenes/miniatura-2.jpg" alt="The jocker"></div>
+                    <div class="move-item" data-id="3" data-trailer="http://www.youtube.com/embed/sY1S34973zA?autoplay=1" data-title="The Godfather"><img src="./assets/imagenes/miniatura-3.jpg" alt="The Godfather"></div>
+                    <div class="move-item" data-id="4" data-trailer="http://www.youtube.com/embed/o2AsIXSh2xo?autoplay=1" data-title="Bird Box"><img src="./assets/imagenes/miniatura-4.jpg" alt="Bird Box"></div>
+                    <div class="move-item" data-id="1" data-trailer="http://www.youtube.com/embed/FUK2kdPsBws?autoplay=1" data-title="Fast and Furious"><img src="./assets/imagenes/miniatura-1.jpg" alt="Fast and Furious"></div>
+                    <div class="move-item" data-id="2" data-trailer="http://www.youtube.com/embed/zAGVQLHvwOY?autoplay=1" data-title="The Jocker"><img src="./assets/imagenes/miniatura-2.jpg" alt="The jocker"></div>     
+                </div>
+            </div>   
+            </section>
+            <footer class="h-1/6 text-center">
+                @2021
+            </footer>
+        </main>
+        <script src="./assets/index.js"></script>    
+    </body>
+</html>
