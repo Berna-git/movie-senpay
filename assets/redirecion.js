@@ -1,4 +1,4 @@
 // redirection to home
 function redirection() {
-    location.href = "../home.html"
+    location.href = "./home.html"
 }
